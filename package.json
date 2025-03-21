@@ -1,0 +1,24 @@
+{
+  "name": "pvm-invest",
+  "version": "1.0.0",
+  "description": "PVM financial website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "TheWhizKind",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.11.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
