@@ -1,20 +1,93 @@
-.header {
+.body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Keeps images in the background */
+}
+
+.direction {
+    left: 0;
+    opacity: 0.1; /* Adjust transparency as needed */
+}
+
+.finance-main {
+    right: 0;
+}
+
+.content {
+    align-items: left;
+    position: relative;
+    z-index: 1; /* Ensures text and other elements are above the images */
+    color: black;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.text-box {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2); /* Light background overlay */
+}
+
+/* Text Styling */
+.left-text, .right-text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+}
+
+.left-text {
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+
+.right-text {
+    padding-left: 10px;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.custom-btn {
+    background-color: #0D2C4D; /* Dark Blue Background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.logo {
-    width: 100px;
+.custom-btn span {
+    margin-left: 10px;
+    font-size: 20px;
 }
 
-.nav-items > ul {
-    font-size: 24px;
-    display: flex;
-    list-style-type: none;
+.custom-btn:hover {
+    background-color: #0A223A; /* Slightly darker on hover */
 }
 
-.nav-items > ul > li {
-    padding: 10px;
-    margin: 10px;
+hr {
+    height: 2px; /* Increase thickness */
+    background-color: black; /* Set color */
+    border: none; /* Remove default border */
+    opacity: 1; /* Ensure full visibility */
 }

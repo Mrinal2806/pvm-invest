@@ -1,20 +1,31 @@
 {
   "name": "pvm-invest",
   "version": "1.0.0",
-  "description": "PVM financial website",
+  "description": "This is namaste react practice by mrinal",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
-  "author": "TheWhizKind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrinal2806/pvm-invest.git"
+  },
+  "keywords": [],
+  "author": "The WhizKind",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrinal2806/pvm-invest/issues"
+  },
+  "homepage": "https://github.com/Mrinal2806/pvm-invest#readme",
   "devDependencies": {
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.11.2"
   },
